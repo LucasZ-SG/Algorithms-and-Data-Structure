@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int N = 1e6 + 10;
+const int N = 1e5 + 10;
 
 int n;
 int q[N], temp[N];
@@ -33,4 +33,3 @@ int main(){
     for(int i = 0; i < n;i++) printf("%d ", q[i]);
     return 0;
 }
-
